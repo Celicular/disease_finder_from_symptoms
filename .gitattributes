@@ -1,0 +1,8 @@
+# Ignore everything else
+* linguist-vendored
+
+# Count Python files
+*.py linguist-vendored=false linguist-language=Python
+
+# Count Julia files
+*.jl linguist-vendored=false linguist-language=Julia
